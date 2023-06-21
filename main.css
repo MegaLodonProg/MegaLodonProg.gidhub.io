@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body {
+    background: url(fon.jpg);
+    border: 1px #000 solid;
+
+}
+
+header {
+    background-color: rgb(207, 80, 21);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 8%;
+    align-items: center;
+}
+
+.Logo {
+    font-size: xx-large;
+    font-weight: 900;
+    color: #000;
+}
+
+.Logo:hover {
+    transform: scale(1.25);
+    transition: .5s;
+}
+
+li {
+    position: relative;
+    float: left;
+}
+
+nav ul li a {
+    padding: 25px;
+    color: #000;
+    font-size: x-large;
+    display: block;
+    border-left:1px rgb(0, 0, 0) solid;
+}
+
+nav ul li a:hover {
+    color: rgb(204, 20, 20);
+}
